@@ -45,6 +45,9 @@ cd test-git
 valider les fichiers
 git add *
 
+ajout atomique
+git add -p 
+
 valider les changements ave commentaire
 git commit -m "le commentaire"
 
