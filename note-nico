@@ -35,7 +35,6 @@ aide
 http://doc.fedora-fr.org/wiki/Gestion_et_contr%C3%B4le_de_versions_avec_Git
 http://www.git-attitude.fr/2013/04/03/configuration-git/
 
-
 creation du depot
 creation du dossier
 mkdir test-git
@@ -45,6 +44,9 @@ cd test-git
 
 valider les fichiers
 git add *
+
+ajout atomique
+git add -p 
 
 valider les changements ave commentaire
 git commit -m "le commentaire"
@@ -58,7 +60,6 @@ git status
 voir les modif entre le distant et le local 
 git fetch
 
-
 pousser les commit vers distant
 git push 
 
@@ -67,6 +68,9 @@ git pull
 
 voir les branche
 git branch
+
+voir toute les branches distantes
+git branch -r
 
 ajout dans le prompt du nom de la branche
 ~/bashrc ou ~/bash_profile
@@ -108,4 +112,3 @@ git stash list
 
 appliquer le dernier grenier
 git stash apply
-
