@@ -83,7 +83,7 @@ effacement de la branche dev si pas necessaire et non validé
 git branch -D dev
 
 remettre les données de la branche principal dans le dev
-git checkou dev
+git checkout dev
 git rebase master
 
 mise au grenier d'une modif
@@ -91,7 +91,6 @@ git stash
 
 voir le grenier
 git stash list
-
 
 appliquer le dernier grenier
 git stash apply
