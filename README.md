@@ -1,9 +1,28 @@
+
 # git-formation
 Formation GIT du 6-7/12
 
+Nouvelle ligne
 
-Une modification de Rémi
+test mg
 
+Une modification de Rï¿½mi
+
+
+[Formation-P10]Test
+<<<<<<< HEAD
+=======
+
+>>>>>>> a856f7642f586ca6bca646e003fdedca8d63d3da
+Une modification de RÃ©mi
 
 Une modification de moi
+
+
+=======
+Une modification de Amine
+
+
 cd
+
+modif Aicha
