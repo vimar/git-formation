@@ -1,5 +1,5 @@
 configuration de git
-
+ggggggggggg
 definition de l'editeur git par defaut
 
 git config --global core.editor vim
@@ -21,6 +21,8 @@ git config --global sendemail.smtpserverport 465
 git config --global sendemail.smtpencryption tls
 git config --global sendemail.smtpuser <utilisateur>
 git config --global sendemail.smtp.pass <password>
+
+on retrouve la configuration dans ~/.gitconfig
 
 un custom pour gitlog
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
