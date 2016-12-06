@@ -75,7 +75,7 @@ parse_git_branch() {
 }
 export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
 
-
+on peut bien sur on s'authentifier par clef ssh
 
 ajout d'une branche
 git branch dev
