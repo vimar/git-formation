@@ -1,5 +1,5 @@
 configuration de git
-
+ggggggggggg
 definition de l'editeur git par defaut
 
 git config --global core.editor vim
