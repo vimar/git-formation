@@ -1,1 +1,3 @@
-class MENESR{}
+class MENESR{
+	public function __construct(){}
+}
