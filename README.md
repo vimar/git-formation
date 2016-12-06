@@ -10,16 +10,6 @@ Une modification de R�mi
 
 
 [Formation-P10]Test
-<<<<<<< HEAD
-=======
-
->>>>>>> a856f7642f586ca6bca646e003fdedca8d63d3da
-Une modification de Rémi
-
-Une modification de moi
-
-
-=======
 Une modification de Amine
 
 
