@@ -12,13 +12,13 @@ Une modification de Rémi
 [Formation-P10]Test
 
 
-Une modification de moi
+What else?
+
+
+Je teste un conflit
 
 
 Une modification de Amine
 
-cd
+remodif Amine
 
-add key
-
-modif Aicha
