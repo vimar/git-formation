@@ -27,3 +27,5 @@ cd
 add key
 
 modif Aicha
+
+test aicha-sonia
