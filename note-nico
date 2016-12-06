@@ -1,0 +1,97 @@
+configuration de git
+
+definition de l'editeur git par defaut
+
+git config --global core.editor vim
+
+configuration de l'identité de l'utilisateur
+git config --global user.name "Nicolas Schont"
+git config --global user.email \
+								"nicolas.schont@ac-versailles.fr"
+
+git config --global color.ui auto
+
+dans geany utiliser geanyvs dans les plugins
+
+
+notification email par git (git-email)
+
+git config --global sendemail.smtpserver <smtp.example.com>
+git config --global sendemail.smtpserverport 465
+git config --global sendemail.smtpencryption tls
+git config --global sendemail.smtpuser <utilisateur>
+git config --global sendemail.smtp.pass <password>
+
+un custom pour gitlog
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+on a
+git lg
+git lg -p
+
+aide
+http://doc.fedora-fr.org/wiki/Gestion_et_contr%C3%B4le_de_versions_avec_Git
+http://www.git-attitude.fr/2013/04/03/configuration-git/
+
+
+creation du depot
+creation du dossier
+mkdir test-git
+git init test-git
+
+cd test-git
+
+valider les fichiers
+git add *
+
+valider les changements ave commentaire
+git commit -m "le commentaire"
+
+voir les modifs avant add
+git diff
+
+voir l'etat du depot 
+git status
+
+voir les modif entre le distant et le local 
+git fetch
+
+
+pousser les commit vers distant
+git push 
+
+recuperer les distants en local
+git pull
+
+voir les branche
+git branch
+
+ajout d'une branche
+git branch dev
+
+utiliser la branche dev
+git checkout dev
+
+fusion de branche
+git checkout master
+git merge dev
+
+effacement de la branche dev, si fusion reussi
+git branch -d dev
+
+effacement de la branche dev si pas necessaire et non validé
+git branch -D dev
+
+remettre les données de la branche principal dans le dev
+git checkout dev
+git rebase master
+
+mise au grenier d'une modif
+git stash
+
+voir le grenier
+git stash list
+
+appliquer le dernier grenier
+git stash apply
+
