@@ -114,6 +114,16 @@ appliquer le dernier grenier
 git stash apply
 
 
+<<<<<<< HEAD
 branche principal test1
 
 test 2
+=======
+test branche 1
+test branch 2
+<<<<<<< HEAD
+
+une branche 3
+=======
+>>>>>>> b42d15fb7158598dcf91d316d256c8298d4a1664
+>>>>>>> nico
