@@ -35,7 +35,6 @@ aide
 http://doc.fedora-fr.org/wiki/Gestion_et_contr%C3%B4le_de_versions_avec_Git
 http://www.git-attitude.fr/2013/04/03/configuration-git/
 
-
 creation du depot
 creation du dossier
 mkdir test-git
