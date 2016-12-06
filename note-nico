@@ -68,6 +68,9 @@ git pull
 voir les branche
 git branch
 
+voir toute les branches distantes
+git branch -r
+
 ajout dans le prompt du nom de la branche
 ~/bashrc ou ~/bash_profile
 parse_git_branch() {
