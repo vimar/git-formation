@@ -11,12 +11,14 @@ Une modification de Rémi
 
 [Formation-P10]Test
 
+
 What else?
 
-cd
 
-add key
+Je teste un conflit
 
-modif Aicha
+
+Une modification de Amine
 
 remodif Amine
+
