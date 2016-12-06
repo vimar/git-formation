@@ -4,6 +4,7 @@ Formation GIT du 6-7/12
 
 Nouvelle ligne
 
+test mg
 [Formation-P10]Test
 Une modification de Rémi
 
