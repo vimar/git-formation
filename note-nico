@@ -56,7 +56,6 @@ git status
 voir les modif entre le distant et le local 
 git fetch
 
-
 pousser les commit vers distant
 git push 
 
