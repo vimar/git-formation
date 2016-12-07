@@ -132,6 +132,13 @@ git mv fichier ou dossier
 picorer, insertion d'un commit dans une branche
 git cherry-pick numero-commit
 
+creee une image sous forme de carte
+git-big-picture   -v gimp
+de tout les commit
+git-big-picture   -a -v gimp
+on peut faire sur une branch
+
+
 voir le grenier
 git stash list
 
