@@ -1,7 +1,7 @@
 <?php
 
 namespace App/Amine;
-
+//classe amine test
 Class Amine{
 
     public function hello(){
