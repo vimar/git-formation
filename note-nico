@@ -104,6 +104,7 @@ git branch -D dev
 
 remettre les données de la branche principal dans le dev
 git checkout dev
+git pull --rebase
 git rebase master
 
 mise au grenier d'une modif
