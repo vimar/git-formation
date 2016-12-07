@@ -106,6 +106,8 @@ remettre les données de la branche principal dans le dev
 git checkout dev
 git pull --rebase
 git rebase master
+pour les refonte qui ont eu plein de commit et qu'on veut etre propre
+git rebase --interactive
 
 tag
 on peut pas utiliser un tag deja attribué
@@ -141,6 +143,9 @@ de tout les commit
 git-big-picture   -a -v gimp
 on peut faire sur une branch
 
+
+git clean -d
+git clean -X
 
 
 
