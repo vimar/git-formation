@@ -107,6 +107,13 @@ git checkout dev
 git pull --rebase
 git rebase master
 
+tag
+on peut pas utiliser un tag deja attribué
+git tag nom-tag numero-commit
+git tag -d nom-tag
+deplacer
+git tag -f nom-tag numero-commit
+
 mise au grenier d'une modif
 git stash
 
