@@ -32,3 +32,5 @@ remodif Amine
 branche
 
 https://github.com/nojhan/liquidprompt
+
+new line
