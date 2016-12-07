@@ -11,6 +11,9 @@ Class Amine{
     public function ciao(){
         echo "Ciao amigo!";
     }
+    public function test(){
+        die('bouuuh');
+    }
 }
 
 ?>
