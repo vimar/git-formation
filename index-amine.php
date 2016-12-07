@@ -14,6 +14,5 @@ Class Amine{
     public function test(){
         die('bouuuh');
     }
-}
 
 ?>
