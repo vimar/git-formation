@@ -1,7 +1,7 @@
 <?php
 
 namespace App/Amine;
-
+//classe amine test
 Class Amine{
 
     public function hello(){
@@ -10,6 +10,9 @@ Class Amine{
 
     public function ciao(){
         echo "Ciao amigo!";
+    }
+    public function test(){
+        die('bouuuh');
     }
 }
 
